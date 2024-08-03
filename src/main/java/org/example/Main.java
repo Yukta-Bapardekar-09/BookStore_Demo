@@ -6,9 +6,10 @@ public class Main
     {
         Student s = new Student();
         Abs_Student a = new Student() ;
-//        s.getAllName();
-//        s.getAllAge();
-//        s.getMarks();
+
+        s.getAllName();
+        s.getAllAge();
+        s.getMarks();
         s.getPercentage();
         System.out.println("Hello world!");
     }
